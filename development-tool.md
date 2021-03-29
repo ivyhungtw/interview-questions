@@ -25,3 +25,10 @@ rebase
 ### 8. 在 Rails 專案中，config/database.yml 這個檔案裡有資料庫的設定、帳號密碼等資訊，在使用 Git 時，你通常會怎麼處理這類型內容比較敏感的檔案？
 
 ### 9. 兩個 branch 各有五十個 commit 要接起來時，極有可能會出現大量的 conflict ，這時你會選擇用 merge 還是 rebase 處理它？哪個可能比較方便（或比較少的衝突）？為什麼？
+
+I would choose merge. Because a rebase involves repeated merges. If you have to copy fifty commits, you are doing fifty merges. On the other hand, if you use merge, you only need to resolve the possible conflicts one time.
+
+<br>
+###### :books: References
+
+[it merge vs git rebase for merge conflict scenarios - stack overflow](https://stackoverflow.com/questions/59622140/git-merge-vs-git-rebase-for-merge-conflict-scenarios)
