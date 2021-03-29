@@ -29,6 +29,7 @@ rebase
 I would choose merge. Because a rebase involves repeated merges. If you have to copy fifty commits, you are doing fifty merges. On the other hand, if you use merge, you only need to resolve the possible conflicts one time.
 
 <br>
+
 ###### :books: References
 
 [it merge vs git rebase for merge conflict scenarios - stack overflow](https://stackoverflow.com/questions/59622140/git-merge-vs-git-rebase-for-merge-conflict-scenarios)
