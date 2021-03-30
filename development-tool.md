@@ -23,5 +23,8 @@ rebase
 ### 7. 空的資料夾無法被加入 Git 進行版本控制，但這個資料夾如果又是很重要的資料夾，你會怎麼處理？
 
 ### 8. 在 Rails 專案中，config/database.yml 這個檔案裡有資料庫的設定、帳號密碼等資訊，在使用 Git 時，你通常會怎麼處理這類型內容比較敏感的檔案？
+> [name=Sherry Liao]
+
+I would store these sensitive/confidential information in process.env variables in an .env(dotenv) file, and include this .env file in our .gitignore file before commiting and pushing to the git repo. 
 
 ### 9. 兩個 branch 各有五十個 commit 要接起來時，極有可能會出現大量的 conflict ，這時你會選擇用 merge 還是 rebase 處理它？哪個可能比較方便（或比較少的衝突）？為什麼？
